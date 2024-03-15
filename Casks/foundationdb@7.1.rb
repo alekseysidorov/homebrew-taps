@@ -36,7 +36,7 @@ cask "foundationdb@7.1" do
       "FoundationDB-server"
     ]
 
-  zap trash: [
+  zap rmdir: [
     "/usr/local/foundationdb",
     "/usr/local/etc/foundationdb"
   ]
