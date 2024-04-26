@@ -2,8 +2,8 @@ cask "foundationdb@7.3" do
   arch arm: "arm64" 
 
   name "FoundationDB"
-  version "7.3.35"
-  sha256 "b26368372a349ed1646d3381977523e8f785553a89c794479cd1aa6865397b74"
+  version "7.3.27"
+  sha256 "585103123cb8adb0f2813c47c1b12ec6757924b4a8880f00b1cd03d1ed2556fd"
   url "https://github.com/apple/foundationdb/releases/download/#{version}/FoundationDB-#{version}_#{arch}.pkg"
 
   desc "The open source, distributed, transactional key-value store"
