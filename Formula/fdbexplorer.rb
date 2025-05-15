@@ -1,5 +1,3 @@
-require "language/go"
-
 class Fdbexplorer < Formula
   desc "Utility for exploring FoundationDB"
   homepage "https://github.com/pwood/fdbexplorer"
